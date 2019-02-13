@@ -1,0 +1,33 @@
+.app {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  padding: 30px
+}
+
+@media screen and (max-width: 480px) {
+  .content-no-sidebar {
+    padding: 15px;
+  }
+}
+
+.content-beside-sidebar {
+  position: absolute;
+  left: 200px;
+  right: 0;
+  height: 100%;
+  padding: 30px;
+}

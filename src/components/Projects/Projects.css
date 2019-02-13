@@ -1,0 +1,62 @@
+.project__wrapper {
+  margin-bottom: 30px;
+}
+
+.project__wrapper .project-heading {
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.project__wrapper .project-heading:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.project__wrapper .date-edited {
+  float: right;
+  padding: 5px;
+}
+
+.project__wrapper .project-heading a,
+.project__wrapper .project-heading a:hover,
+.project__wrapper .project-heading small {
+  color: white;
+}
+
+.project__wrapper .project-body {
+  border: 1px solid black;
+  padding: 8px 10px;
+}
+
+.project__wrapper .project-body:last-child {
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.topic {
+  display: inline-block;
+  padding: 2px 8px;
+  margin: 2px 8px;
+  color: black;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.topic:hover {
+  background-color: black;
+  color: white;
+  cursor: default;
+}
+
+.project__wrapper .project-footer {
+  background-color: white;
+  border: solid 1px black;
+  border-top: none;
+  padding: 4px 2px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
